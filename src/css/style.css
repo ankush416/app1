@@ -1,0 +1,65 @@
+:root {
+  --primary:#05cddd;
+  --light:#f0fbfc;
+  --dark:rgb(18, 20, 18);
+}
+.service-item{
+  background-color:var(--light);
+  transition: 0.1s;
+}
+.service-item:hover{
+  margin-top: -10px;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+.footer{
+  text-align: center;
+  background-color: var(--dark);
+  color: var(--light);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* Footer.css */
+
+
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.footer a {
+  color: var(--light);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+.contact-us{
+  margin-bottom: 100px;
+}
+.contact-us img{
+  width: 100%;
+  border: 5px solid var(--dark);
+}
+
+.elearn-logo {
+  width: 30px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust the height to maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
