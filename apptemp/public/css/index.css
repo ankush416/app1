@@ -1,0 +1,145 @@
+.home-banner{
+    background-image: url(../Image/First.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);  
+  text-align: center;
+}
+
+@media (max-width:992){
+    h1{
+        color: #f24c2f;
+        text-transform: capitalize;
+        font-size: 64px;
+        letter-spacing: 5px;
+        }
+        h2{
+           margin-top: 25px;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 48px;
+            letter-spacing: 5px;
+        }
+}
+
+
+.product{
+    margin-top: 100px;
+}
+h3{
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+.contact-banner{
+    
+        background-image: url(../Image/Timepass.jpeg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+.product-banner{
+    
+    background-image: url(../Image/Timepass.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .about{
+        margin-top: 100px;
+    }
+    .about img{
+        width: 100%;
+        border: 2px solid #f24c2f;
+    }
+    .btn-read{
+        text-decoration: none;
+        display: inline-block;
+        background-color: #f24c2f;
+        color: #fff;
+        padding: 5px 10px;
+    }
+    .btn-read:hover{
+        background-color: #f24c2f;
+    }
+    .footer{
+        background-color: rgb(11, 11, 40);
+        color: #fff;
+        text-align: center;
+        margin-top: 100px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .section-clothing{
+        text-align: center;
+        background-image: url(../Image/First.jpeg);
+        background-attachment: fixed;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .section-clothing h4{
+        font-size: 32px;
+        color: #f24c2f;
+        text-transform: uppercase;
+    }
+    .section-clothing p{
+        font-size: 32px;
+        color: white;
+    }
+    .btn-clothing{
+        
+        text-decoration: none;
+        display: inline-block;
+        background-color: #f24c2f;
+        color: #fff;
+        padding: 5px 10px;
+    }
+.about-banner{
+    background-image: url(../Image/Timepass.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+    .team{
+        margin-top: 100px;
+    }
+
+    .clients{
+        margin-top: 100px;
+    }
+    .contact-banner{
+        background-image: url(../Image/girl1.jpeg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .contact-us{
+        margin-top: 100px;
+    }
+    h1{
+        color: #f24c2f;
+        text-transform: capitalize;
+        font-size: 64px;
+        letter-spacing: 5px;
+        }
+        h2{
+           margin-top: 25px;
+            color: #fff;
+            text-transform: capitalize;
+            font-size: 48px;
+            letter-spacing: 5px;
+        }
+    

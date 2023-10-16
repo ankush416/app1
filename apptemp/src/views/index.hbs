@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    {{>navbar}}
+    <!-- ye yha kyu call krwaya App me -->
+    <div class="home-banner">
+        <div class="banner-text">
+            <h1>Best offers</h1>
+            <h2>
+                new arrivals on sale
+            </h2>
+        </div>
+    </div>
+    {{>product}}
+    {{>about}}
+    <div class="section-clothing">
+        <h4> 
+            Clothing
+        </h4>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit ea maxime laborum laudantium placeat omnis est ab quasi doloribus recusandae harum neque amet, error, nihil obcaecati aliquid molestias similique non!</p>
+        <a href="#" class="btn-read">Clothing</a>
+    </div>
+    {{>footer}}
+</body>
+<script src="../js/bootstrap.bundle.js"></script>
+
+</html>
